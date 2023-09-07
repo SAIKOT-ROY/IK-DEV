@@ -8,3 +8,17 @@
     background-clip: text;
     color: transparent;
 }
+
+.web-gradient {
+    background:  var(--gradient-primary-bg, linear-gradient(225deg, #F76680 0%, #57007B 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.web-size {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.523%;
+}

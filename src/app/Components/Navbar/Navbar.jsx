@@ -17,7 +17,7 @@ const Navbar = () => {
       style={{ color: "rgba(255, 255, 255, 1)" }}
       className="relative flex flex-row-reverse md:flex-row justify-between items-center px-6 py-3 md:px-10 md:py-4 shadow-lg mb-20"
     >
-      <div className="w-[120px] md:h-[50px] md:w-[190px] p-2">
+      <div className="md:h-[50px] md:w-[190px]">
         <Image src={logo} className="md:w-[170px]" alt="NavLogo" />
       </div>
       <div className="text-violet-500 md:hidden" onClick={makeVisible}>

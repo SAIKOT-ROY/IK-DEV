@@ -12,7 +12,7 @@ const Banner = () => {
       >
         <div className="flex flex-col gap-12 md:text-left justify-center md:w-[700px] text-center">
           <div className="md:w-[531px]">
-            <div className="text-5xl text-[#1A202C]">
+            <div className="md:text-5xl text-[#1A202C]">
               <p className="mb-7">
                 <span>Great</span> <span className="text-gradient font-bold">Product</span> <span>is</span>
             </p>
@@ -22,13 +22,13 @@ const Banner = () => {
             </div>
           </div>
           <div>
-            <h2 className="text-[#4A5568] text-lg">
+            <h2 className="text-[#4A5568] md:text-lg md:w-full mx-auto w-1/3">
               We help build and manage a team of world-class developers to bring
               your vision to life
             </h2>
           </div>
           <div>
-            <button className="bg-[#3D63EA] px-8 py-4 rounded-lg text-white">
+            <button className="bg-[#3D63EA] md:px-8 md:py-4 rounded-lg text-white">
               Let’s get started!
             </button>
           </div>
