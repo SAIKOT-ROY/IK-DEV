@@ -4,6 +4,8 @@ import '../app/globals.css'
 import Services from './Components/Services/Services'
 import Trust from './Trust/Trust'
 import AdSection from './Components/AdSection/AdSection'
+import Review from './Review/Review'
+import CaseStudies from './Components/CaseStudies/CaseStudies'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
      <Services />
      <Trust />
      <AdSection />
+     <Review />
+     <CaseStudies />
     </main>
   )
 }
