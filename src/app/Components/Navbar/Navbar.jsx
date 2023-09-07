@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div
       style={{ color: "rgba(255, 255, 255, 1)" }}
-      className="relative flex flex-row-reverse md:flex-row justify-between items-center px-6 py-3 md:px-10 md:py-4 shadow-lg"
+      className="relative flex flex-row-reverse md:flex-row justify-between items-center px-6 py-3 md:px-10 md:py-4 shadow-lg mb-20"
     >
       <div className="w-[120px] md:h-[50px] md:w-[190px] p-2">
         <Image src={logo} className="md:w-[170px]" alt="NavLogo" />
@@ -24,7 +24,7 @@ const Navbar = () => {
         <RxHamburgerMenu />
       </div>
       {visible && (
-        <div className="absolute font-semibold bg-[#3D63EA] top-0 left-0 mt-16 ml-6 gap-12 z-10 md:hidden text-white py-3 px-4 rounded-lg">
+        <div className="absolute font-bold bg-[#3D63EA] top-0 left-0 mt-16 ml-6 gap-12 z-10 md:hidden text-white py-3 px-4 rounded-lg">
           <h1>About Us</h1>
           <h1>Services</h1>
           <h1>Case Studies</h1>
