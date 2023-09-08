@@ -9,6 +9,8 @@ import CaseStudies from './Components/CaseStudies/CaseStudies'
 import BuildingSoftware from './Components/BuildingSoftware/BuildingSoftware'
 import Design from './Components/Design/Design'
 import TechStark from './Components/TechStark/TechStark'
+import Alcline from './Components/Alcline/Alcline'
+import Resources from './Components/Resources/Resources'
 
 
 export default function Home() {
@@ -24,6 +26,8 @@ export default function Home() {
      <BuildingSoftware />
      <Design />
      <TechStark />
+     <Alcline />
+     <Resources />
     </main>
   )
 }
