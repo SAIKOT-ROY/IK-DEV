@@ -12,6 +12,7 @@ import TechStark from './Components/TechStark/TechStark'
 import Alcline from './Components/Alcline/Alcline'
 import Resources from './Components/Resources/Resources'
 import Hire from './Components/Hire/Hire'
+import Footer from './Components/Footer/Footer'
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
      <Alcline />
      <Resources />
      <Hire />
+     <Footer />
     </main>
   )
 }
