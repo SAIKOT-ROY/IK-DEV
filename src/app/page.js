@@ -6,6 +6,7 @@ import Trust from './Trust/Trust'
 import AdSection from './Components/AdSection/AdSection'
 import Review from './Review/Review'
 import CaseStudies from './Components/CaseStudies/CaseStudies'
+import BuildingSoftware from './Components/BuildingSoftware/BuildingSoftware'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
      <AdSection />
      <Review />
      <CaseStudies />
+     <BuildingSoftware />
     </main>
   )
 }
