@@ -24,7 +24,7 @@ const Navbar = () => {
         <RxHamburgerMenu />
       </div>
       {visible && (
-        <div className="absolute font-bold bg-[#3D63EA] top-0 left-0 mt-16 ml-6 gap-12 z-10 md:hidden text-white py-3 px-4 rounded-lg">
+        <div className="absolute font-bold bg-[#3D63EA] top-0 left-0 mt-16 ml-6 gap-3 flex flex-col z-10 md:hidden text-white py-6 px-4 rounded-lg">
           <h1>About Us</h1>
           <h1>Services</h1>
           <h1>Case Studies</h1>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <button
             className="py-1 px-2 text-white rounded-lg"
             style={{
-              background: "linear-gradient(225deg, #6675F7 0%, #57007B 100%)",
+              background: "linear-gradient(200deg, #6675F7 10%, #57007B 60%)",
             }}
           >
             Contact us
