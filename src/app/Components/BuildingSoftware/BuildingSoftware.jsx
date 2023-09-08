@@ -14,7 +14,7 @@ import sim from "../../../../img/_Simform is quick to identify larger problem wi
 
 const BuildingSoftware = () => {
   return (
-    <div className="md:py-20 py-16">
+    <div className="md:py-20 py-16 border border-[#E7DAED]">
       <CommonTitle heading="Way of building" subHeading="Great Software" />
       <div>
         <div className="flex flex-col mb-10 md:flex-row justify-center items-center gap-24">

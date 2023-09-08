@@ -7,6 +7,9 @@ import AdSection from './Components/AdSection/AdSection'
 import Review from './Review/Review'
 import CaseStudies from './Components/CaseStudies/CaseStudies'
 import BuildingSoftware from './Components/BuildingSoftware/BuildingSoftware'
+import Design from './Components/Design/Design'
+import TechStark from './Components/TechStark/TechStark'
+
 
 export default function Home() {
   return (
@@ -19,6 +22,8 @@ export default function Home() {
      <Review />
      <CaseStudies />
      <BuildingSoftware />
+     <Design />
+     <TechStark />
     </main>
   )
 }
