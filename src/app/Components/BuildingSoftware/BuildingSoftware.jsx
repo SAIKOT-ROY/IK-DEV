@@ -14,10 +14,10 @@ import sim from "../../../../img/_Simform is quick to identify larger problem wi
 
 const BuildingSoftware = () => {
   return (
-    <div className="md:py-20 py-16 border border-[#E7DAED]">
+    <div className="md:py-20 md:px-20 py-16 border border-[#E7DAED]">
       <CommonTitle heading="Way of building" subHeading="Great Software" />
       <div>
-        <div className="flex flex-col md:mb-10 lg:flex-row md:flex-col justify-center items-center gap-24">
+        <div className="flex flex-col md:mb-10 lg:flex-row xl:flex-row md:flex-col justify-center items-center gap-24">
           <div className="md:w-[534px] w-[350px]">
             <h1 className="text-3xl mb-4 font-bold">
               Build the right team to scale
