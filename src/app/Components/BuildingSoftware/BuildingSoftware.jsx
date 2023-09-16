@@ -17,8 +17,8 @@ const BuildingSoftware = () => {
     <div className="md:py-20 py-16 border border-[#E7DAED]">
       <CommonTitle heading="Way of building" subHeading="Great Software" />
       <div>
-        <div className="flex flex-col mb-10 md:flex-row justify-center items-center gap-24">
-          <div className="md:w-[534px] w-[400px]">
+        <div className="flex flex-col md:mb-10 lg:flex-row md:flex-col justify-center items-center gap-24">
+          <div className="md:w-[534px] w-[350px]">
             <h1 className="text-3xl mb-4 font-bold">
               Build the right team to scale
             </h1>
@@ -45,9 +45,9 @@ const BuildingSoftware = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[575px] w-[400px] h-[483px]">
+          <div className="md:w-[575px] w-[350px] h-[483px]">
           <div className="relative">
-              <div className="absolute right-[420px] -bottom-8 md:-top-5 md:-left-[580px]">
+              <div className="absolute right-[375px] -bottom-9 md:-top-5 md:-left-[580px]">
                 <Image
                   className="flex ml-[555px]"
                   width={64}
@@ -56,15 +56,15 @@ const BuildingSoftware = () => {
                   alt="layover"
                 />
               </div>
-              <div className="absolute -bottom-[340px] left-[70px] md:-bottom-[490px] md:left-[250px]">
+              <div className="absolute -bottom-[305px] left-[70px] md:-bottom-[490px] md:left-[250px]">
                 <Image src={lay2} alt="layover" />
               </div>
               <Image className="absolute" src={ban1} alt="ban1" style={{ zIndex: 1 }} />
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row-reverse justify-center items-center gap-24">
-          <div className="md:w-[534px] w-[400px]">
+        <div className="flex flex-col md:flex-col lg:flex-row-reverse justify-center items-center gap-24">
+          <div className="md:w-[534px] w-[350px]">
             <h1 className="text-3xl mb-4 font-bold">
               Build the right team to scale
             </h1>
@@ -91,7 +91,7 @@ const BuildingSoftware = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[575px] w-[400px] h-[483px]">
+          <div className="md:w-[575px] w-[350px] h-[483px]">
             <div className="relative">
               <div className="absolute right-5 -bottom-4 md:-top-3 md:left-0">
                 <Image
@@ -102,15 +102,15 @@ const BuildingSoftware = () => {
                   alt="layover"
                 />
               </div>
-              <div className="absolute -bottom-[350px] left-[70px] md:-bottom-[505px] md:left-[90px]">
+              <div className="absolute -bottom-[320px] left-[70px] md:-bottom-[505px] md:left-[90px]">
                 <Image src={layover} alt="layover" />
               </div>
               <Image className="absolute" src={ban2} alt="ban1" style={{ zIndex: 1 }} />
             </div>
           </div>
         </div>
-        <div className="flex flex-col mb-10 md:flex-row justify-center items-center gap-24">
-          <div className="md:w-[534px] w-[400px]">
+        <div className="flex flex-col mb-10 md:flex-col lg:flex-row justify-center items-center gap-24">
+          <div className="md:w-[534px] w-[350px]">
             <h1 className="text-3xl mb-4 font-bold">
               Build the right team to scale
             </h1>
@@ -137,9 +137,9 @@ const BuildingSoftware = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[575px] w-[400px] h-[483px]">
+          <div className="md:w-[575px] w-[350px] h-[483px]">
           <div className="relative">
-              <div className="absolute right-[420px] -bottom-8 md:-top-5 md:-left-[300px]">
+              <div className="absolute right-[200px] -bottom-5 md:-top-5 md:-left-[300px]">
                 <Image
                   className="flex ml-[555px]"
                   width={40}
@@ -148,7 +148,7 @@ const BuildingSoftware = () => {
                   alt="layover"
                 />
               </div>
-              <div className="absolute -bottom-[340px] left-[70px] md:-bottom-[490px] md:-left-4">
+              <div className="absolute -bottom-[310px] -left-5 md:-bottom-[490px] md:-left-4">
                 <Image width={50} height={50} src={layover} alt="layover" />
               </div>
               <Image className="absolute" src={ban3} alt="ban1" style={{ zIndex: 1 }} />

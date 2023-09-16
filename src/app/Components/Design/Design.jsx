@@ -12,7 +12,7 @@ const Design = () => {
   return (
     <div className="bg-[#F7F7FA] py-20">
       <CommonTitle heading="Our Design and" subHeading="development approach" />
-      <div className="grid md:grid-cols-2 justify-center items-center md:w-2/3 mx-auto gap-10">
+      <div className="grid md:grid-cols-1 lg:grid-cols-2 justify-center items-center md:w-2/3 mx-auto gap-10">
         <div className="md:w-[604px] mx-auto py-6 w-5/6 gap-5 flex md:h-[230px] justify-center px-6 justify-items-center  items-center border border-[#E7DAED] bg-[#FAFAFA]">
           <div className="w-[140px] h-[100px]">
             <Image className="" src={rocket} alt="rocket" />
